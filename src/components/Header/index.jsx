@@ -27,10 +27,11 @@ export const Header = () => {
     return (
         <>
             {!isMobile && (
-                <header className="header">
+                <header className="header-container">
                     <div className="container">
                         <nav className="nav">
-                            <Link to="/" className="nav__logo"><img src="./assets/FF-logos_transparent.png" alt="Ewakuowani1942" width="100px" height="auto" /></Link>
+                            
+                            <Link to="/" className="nav__logo"><img src="../public/ewakuowani" alt="Ewakuowani1942" width="100px" height="auto" /></Link>
                             <ul className="nav__list">
                                 <li className="nav__">
                                     <Link to="/" className="nav__link">
