@@ -1,8 +1,8 @@
 
 import './App.css';
-
+import * as bootstrap from 'bootstrap';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Header } from './components/Header';
+import Navbar  from './components/Navbar';
 import Home from './pages/Home';
 import Search from './pages/search';
 import History from './pages/History';
@@ -15,7 +15,7 @@ function App() {
     <div>
       <Router>
         <div>
-          <Header />
+          <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/search" element={<Search />} />
