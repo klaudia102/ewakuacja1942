@@ -1,6 +1,6 @@
 .navbar_container {
     width: 100vw;
-    height: 106px;
+    height: 116px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,7 @@
     align-items: center;
     width: 50vw;
     color: #f6f5f2;
+    border: 5px;
 }
 
 .nav_link {
@@ -31,6 +32,7 @@
 
 img {
     height: 100px;
+ 
 }
 
 NavLink {
@@ -48,4 +50,9 @@ a {
 
 .nav_tabs_container a:hover {
     color: rgb(158, 156, 154) !important;
+}
+.logo_pic:hover {
+    border-width: 5px !important ;
+    border-style: solid !important ;
+    border-color:  rgb(158, 156, 154) !important ;
 }

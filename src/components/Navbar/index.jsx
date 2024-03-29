@@ -16,7 +16,7 @@ function Navbar() {
             }
           >
             <a className="navbar-brand" href="#">
-              <img src="public/Ewakuowani(5).png" alt="ewakuowani1942 logo" height="100px" />
+              <img src="public/Ewakuowani(5).png" alt="ewakuowani1942 logo" height="90px" />
             </a>
           </NavLink>
         </p>
