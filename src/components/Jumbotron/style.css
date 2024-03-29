@@ -9,13 +9,11 @@
 }
 /*  biay
 rgb(158, 156, 154)  szary*/
-h1 {
+h1,h4  {
     margin: 0;
     color: #f6f5f2 !important;
 }
-h4 {
-    color: #f6f5f2 !important;
-}
+
 p1 {
     color: black !important; 
     margin:0;
