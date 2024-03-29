@@ -1,16 +1,13 @@
 
 import React from 'react';
-import { useState, useEffect } from 'react';
-
 import './style.css';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
-
-      <div ClassName='navbar_container'>
-        <ul className="nav nav-tabs ">
+      <div className='navbar_container container-header '>
+        <p className="nav-item logo_pic">
           <NavLink
             to="/"
             end
@@ -19,21 +16,24 @@ function Navbar() {
             }
           >
             <a className="navbar-brand" href="#">
-              <img src="public/ewakuowani.png" alt="ewakuowani1942 logo" width="100" />
+              <img src="public/Ewakuowani(5).png" alt="ewakuowani1942 logo" height="100px" />
             </a>
           </NavLink>
-          <li className="nav-item">
+        </p>
+        <div className="nav nav-tabs nav_tabs_container ">
+
+          <p className="nav-item nav_link">
             <NavLink
               to="/search"
               end
               className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
+                isActive ? 'nav-link active' : 'nav-link '
               }
             >
               Szukaj
             </NavLink>
-          </li>
-          <li className="nav-item">
+          </p>
+          <p className="nav-item nav_link">
             <NavLink
               to="/history"
               className={({ isActive }) =>
@@ -42,8 +42,8 @@ function Navbar() {
             >
               Historia <br />ewakuacji
             </NavLink>
-          </li>
-          <li className="nav-item">
+          </p>
+          <p className="nav-item nav_link">
             <NavLink
               to="/contact"
               end
@@ -53,8 +53,8 @@ function Navbar() {
             >
               Kontact
             </NavLink>
-          </li>
-        </ul>
+          </p>
+        </div>
       </div>
     </>
   )
