@@ -3,7 +3,7 @@ import './App.css';
 import * as bootstrap from 'bootstrap';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar  from './components/Navbar/index';
-import Home from './pages/Home/index.jsx';
+// import Home from './pages/Home/index.jsx';
 import Search from './pages/search/index';
 import History from './pages/History/index';
 import Contact from './pages/Contact/index';
@@ -17,7 +17,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-              <Route path="/" element={<Home />} />
+              {/* <Route path="/" element={<Home />} /> */}
               <Route path="/search" element={<Search />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/history" element={<History />} />
