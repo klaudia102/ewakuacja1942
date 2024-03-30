@@ -2,11 +2,11 @@
 import './App.css';
 import * as bootstrap from 'bootstrap';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar  from './components/Navbar';
-import Home from './pages/Home';
-import Search from './pages/search';
-import History from './pages/History';
-import Contact from './pages/Contact';
+import Navbar  from './components/Navbar/index';
+import Home from './pages/Home/index';
+import Search from './pages/search/index';
+import History from './pages/History/index';
+import Contact from './pages/Contact/index';
 
 
 function App() {
