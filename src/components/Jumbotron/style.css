@@ -1,5 +1,5 @@
 .jumbotron_container {
-    background-image: url('public/jumbo1(1).jpg');
+    background-image: url('/jumbo1(1).jpg');
     background-size:cover;
     background-repeat: none;
     height: 50vh;
