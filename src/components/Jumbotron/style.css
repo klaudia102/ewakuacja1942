@@ -14,12 +14,6 @@ h1,h4  {
     color: #f6f5f2 !important;
 }
 
-p1 {
-    color: black !important; 
-    margin:0;
-    font-size: x-small;
-}
-
 .container_header {
     display:flex ;
     justify-content: center;

@@ -4,11 +4,18 @@ function Contact() {
 
   return (
     <>
-   
-      <h1>Ewakuowani 1942</h1>
-      <h2>lista ewakowanych z ZSRR w 1942</h2>
-      <p> Tu bedzie mozliwosc kontaktu</p>
-      
+      <div className='main-container'>
+        <section className='text'>
+          <div className='text-container'>
+            <h3>Jeśli potrzebujesz się z nami skontaktować,</h3>
+          </div>
+          <div className='text-container'><h3>wyślij e-mail na adres ewakuowani1942@gmail.com
+            lub wypełnij formularz </h3></div>
+        </section>
+        <section className='form'>
+          
+        </section>
+      </div>
     </>
   )
 }
