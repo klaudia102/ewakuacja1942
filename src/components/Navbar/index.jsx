@@ -51,7 +51,7 @@ function Navbar() {
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Kontact
+              Kontakt
             </NavLink>
           </p>
         </div>
