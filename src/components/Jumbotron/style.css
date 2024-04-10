@@ -19,3 +19,8 @@ p1 {
     margin:0;
     font-size: x-small;
 }
+
+.container_header {
+    display:flex ;
+    justify-content: center;
+}
