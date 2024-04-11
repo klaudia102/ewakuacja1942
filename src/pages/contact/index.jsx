@@ -24,7 +24,7 @@ function Contact() {
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div className='button-container'>
-          <button type="button" className="btn sent_button">Wyślij</button>
+            <button type="button" className="btn sent_button">Wyślij</button>
           </div>
         </section>
 

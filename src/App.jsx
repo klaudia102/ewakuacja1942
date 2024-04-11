@@ -7,6 +7,7 @@ import Home from './pages/home/index'
 import Search from './pages/search/index';
 import History from './pages/history/index';
 import Contact from './pages/contact/index';
+import Footer from './components/Footer/index'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/history" element={<History />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
       
