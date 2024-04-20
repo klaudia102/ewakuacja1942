@@ -1,4 +1,5 @@
 import './style.css'
+import ContacForm from '..//../components/ContactForm/index'
 
 function Contact() {
 
@@ -14,7 +15,9 @@ function Contact() {
           <div className='text-container'><h3>lub wypełnij formularz </h3></div>
         </section>
 
-        <section className='form'>
+        <ContacForm />
+
+        {/* <section className='form'>
           <div className="mb-3 container-email">
             <label for="exampleFormControlInput1" className="form-label">adres e-mail</label>
             <input type="email" className="form-control email-input" id="exampleFormControlInput1" placeholder="name@example.com" />
@@ -26,7 +29,7 @@ function Contact() {
           <div className='button-container'>
             <button type="button" className="btn sent_button">Wyślij</button>
           </div>
-        </section>
+        </section> */}
 
       </div>
     </>
