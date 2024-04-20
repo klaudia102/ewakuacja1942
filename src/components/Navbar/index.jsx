@@ -36,6 +36,7 @@ function Navbar() {
           <p className="nav-item nav_link">
             <NavLink
               to="/history"
+              end
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
               }

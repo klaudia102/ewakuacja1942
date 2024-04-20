@@ -47,7 +47,7 @@ a {
 
 .nav_tabs_container a:active {
     color: rgb(158, 156, 154) !important;
-    border-width: 0;
+    background-color: #004aad !important
 }
 
 .nav_tabs_container a:hover {
