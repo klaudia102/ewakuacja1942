@@ -1,3 +1,21 @@
-h1 {
-    color: blue;
+.card_container {
+    display: flex;
+    justify-content: center;
+    margin:30px;
+}
+
+
+.card {
+    background-color: #f6f5f2;
+    width: 50vw;
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    padding-left: 80px;
+
+}
+
+h4, p {
+    color: #004aad !important;
+    margin-bottom: 1rem;
 }
