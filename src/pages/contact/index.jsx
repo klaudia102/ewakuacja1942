@@ -5,7 +5,7 @@ function Contact() {
 
   return (
     <>
-      <div className='main-container'>
+      <div className='main_container_contact'>
 
         <section className='text'>
           <div className='text-container'>
