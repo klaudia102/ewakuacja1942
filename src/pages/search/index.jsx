@@ -7,8 +7,10 @@ function Search() {
     <>
       <h1>Ewakuowani 1942</h1>
       <h2>lista ewakowanych z ZSRR w 1942</h2>
-      <p> Tu bedzie możliwość wyszukiwania</p>
-      <p>a tak będą wyglądać wyniki:</p>
+      <div className='search_container'>
+        <input type="text"  className="form-control search-input" id="exampleFormControlInput1" />
+          <button type="button submitt" className="btn search_button">Wyślij</button>
+      </div>
       <Findings />
     </>
   )
