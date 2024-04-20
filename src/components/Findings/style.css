@@ -6,16 +6,20 @@
 
 
 .card {
-    background-color: #f6f5f2;
+    background-color: white;
     width: 50vw;
     display: flex;
     align-items: flex-start;
     padding: 30px;
     padding-left: 80px;
-
+    border-color: #004aad;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 2px;
 }
 
-h4, p {
+th, td {
     color: #004aad !important;
     margin-bottom: 1rem;
+    padding: 3px;
 }
