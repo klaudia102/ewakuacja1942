@@ -6,7 +6,7 @@ function Footer() {
         <footer>
             <div className='contact_container'>
                 <p>Kontact</p>
-                <p>ewakuowani1942@gmail.com</p>
+                <p1>ewakuowani1942@gmail.com</p1>
             </div>
             <div className='copy_rights_container'>
                 <p>Prawa autorskie do strony</p>
