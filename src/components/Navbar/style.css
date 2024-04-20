@@ -9,7 +9,8 @@
 }
 
 .logo_pic {
-    margin-left: 5%;
+    margin-left: 10%;
+    margin: 5%;
 }
 
 .nav_tabs_container {
@@ -46,6 +47,7 @@ a {
 
 .nav_tabs_container a:active {
     color: rgb(158, 156, 154) !important;
+    border-width: 0;
 }
 
 .nav_tabs_container a:hover {
