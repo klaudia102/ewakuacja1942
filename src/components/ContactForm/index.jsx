@@ -13,10 +13,10 @@ function ContactForm() {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
             .then((result) => {
-                alert('Message Sent Successfully')
+                alert('Wiadomość wysłana!')
             }, (error) => {
                 console.log(error.text);
-                alert('Something went wrong!')
+                alert('Coś poszło źle, spróbuj jeszcze raz!')
             });
         e.target.reset()
     };
