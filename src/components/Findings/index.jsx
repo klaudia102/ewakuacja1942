@@ -4,18 +4,48 @@ import React from 'react';
 function Findings(props) {
   return (
     <>
-<section className='card_container'> 
- <div className='card'> 
-      <h4 className="card_title">imię i nazwisko: {props.imie} {props.nazwisko}</h4>
-      <p>data urodzenia: {props.urodzony}</p>
-      <p>miejsce urodzenia: {props.miejsceUr}</p>
-      <p>stopień wojskowy: {props.stopień}</p>
-      <p>przydział w ZSRR: {props.stopień}</p>
-      <p>data ewakuacji: {props.data}</p>
-      <p>przydział na Środkowym Wschodzie: {props.nowyPrzydział}</p>
-      <p>sygnatury archiwalne: {props.sygnatura}</p>
-      </div>
-</section>
+      <section className='card_container'>
+        <div className='card'>
+          <table>
+            <tr>
+              <th>imię i nazwisko:</th>
+              <th>{props.imie} {props.nazwisko}</th>
+            </tr>
+            <tr>
+              <td>data urodzenia:</td>
+              <td>{props.urodzony}</td>
+            </tr>
+            <tr>
+              <td>miejsce urodzenia:</td>
+              <td>{props.miejsceUr}</td>
+            </tr>
+            <tr>
+              <td>stopień wojskowy:</td>
+              <td>{props.stopień}</td>
+            </tr>
+            <tr>
+              <td>przydział w ZSRR:</td>
+              <td>{props.przydział}</td>
+            </tr>
+            <tr>
+              <td>data ewakuacji:</td>
+              <td>{props.data}</td>
+            </tr>
+            <tr>
+              <td>przydział na Środkowym Wschodzie:</td>
+              <td>{props.nowyPrzydział}</td>
+            </tr>
+            <tr>
+              <td>sygnatury archiwalne:</td>
+              <td>{props.sygnatura}</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          </div>
+      </section>
     </>
   )
 }
