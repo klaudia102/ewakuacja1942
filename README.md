@@ -1,9 +1,9 @@
-# React-Portfolio
+# ewakuowani1942
 
 
 ## Description
 
-This webside was created as a source of information regarding  Polish soldiers evacuted from Sovier Russia in 1942. Also it include brief history of Polish Armed Forces in USSR and its units. 
+This website was created as a source of information regarding  Polish soldiers evacuated from Soviet Russia in 1942. Also, it includes a brief history of the Polish Armed Forces in the USSR and its units. 
 
 
 ## Installation
@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-Please put name, surname or name of unit in 'search' field and press 'szukaj' button. You will be presented with records containing wanted words.
+Please put the name, surname, or name of the unit in the 'search' field and press 'szukaj' button. You will be presented with records containing wanted words.
 
 
 ## Credits
@@ -29,11 +29,11 @@ N/A
 
 ## Features
 
-INext data and informtion regarding individual soldiers and army units will be added.
+INext data and information regarding individual soldiers and army units will be added.
 
 ## How to Contribute
 
-Please user contact form if you wish to add data to database.
+Please use the contact form if you wish to add data to the database.
 
 ## Link
 https://ewakuowani1942.netlify.app/
