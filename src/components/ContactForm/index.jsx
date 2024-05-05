@@ -24,12 +24,12 @@ function ContactForm() {
         <form class="formContainer form" onSubmit={handleOnSubmit}>
             <div className="mb-3 container-name">
                 <label for="exampleFormControlInput1 from_name" className="form-label">imię i nazwisko</label>
-                <input type="text" name="from_name" className="form-control name-input frame" id="exampleFormControlInput1 from_name" required />
+                <input type="text" name="user_name" className="form-control name-input frame" id="exampleFormControlInput1 from_name" required />
 
             </div>
             <div className="mb-3 container-email">
                 <label for="exampleFormControlInput1 from_email" className="form-label">adres e-mail</label>
-                <input type="email" name="from_name" className="form-control email-input frame" id="exampleFormControlInput1 from_email" required />
+                <input type="email" name="user_email" className="form-control email-input frame" id="exampleFormControlInput1 from_email" required />
             </div>
             <div class="mb-3 container-massage" >
                 <label for="exampleFormControlTextarea1 message" className="form-label">wiadomość</label> <br />
