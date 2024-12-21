@@ -1,0 +1,9 @@
+
+.main_header{
+
+}
+
+.container_main_header {
+    display: flex;
+    justify-content: center;
+}
