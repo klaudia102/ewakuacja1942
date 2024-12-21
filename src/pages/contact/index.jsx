@@ -1,10 +1,12 @@
 import './style.css'
 import ContacForm from '..//../components/ContactForm/index'
+import MainHeader from '../../mainHeader'
 
 function Contact() {
 
   return (
     <>
+    < MainHeader />
       <div className='main_container_contact'>
 
         <section className='text'>

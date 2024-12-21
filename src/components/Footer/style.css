@@ -6,16 +6,43 @@ footer {
     justify-content: space-evenly;
     padding: 20px;
 }
-p, p1,
+/* p,
 a {
     display:flex ;
     justify-content: center
-}
+} */
 
 p1 {
     font-weight: bold;
 }
 
-a {
+/* a {
     text-decoration: none;
+} */
+
+a:active {
+    color: rgb(158, 156, 154) !important;
+    background-color: #004aad !important;
+    border-color: #004aad !important;
+}
+
+ a:hover {
+    color: rgb(158, 156, 154) !important;
+    border-color: #004aad !important;
+}
+
+.footer_logo:hover {
+    border-width: 5px !important;
+    border-style: solid !important;
+    border-color: #004aad !important;
+}
+
+.contact_link {
+    align-items:center; 
+    display: flex;
+}
+
+.NavLink {
+   
+    align-self: center;
 }

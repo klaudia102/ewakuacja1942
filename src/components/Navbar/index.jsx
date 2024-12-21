@@ -33,7 +33,7 @@ function Navbar() {
               Szukaj
             </NavLink>
           </p>
-          <p className="nav-item nav_link">
+          {/* <p className="nav-item nav_link">
             <NavLink
               to="/history"
               end
@@ -43,7 +43,7 @@ function Navbar() {
             >
               Historia <br />ewakuacji
             </NavLink>
-          </p>
+          </p> */}
           <p className="nav-item nav_link">
             <NavLink
               to="/contact"
