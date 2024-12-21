@@ -43,21 +43,27 @@ NavLink {
 a {
     color: #f6f5f2 !important;
     font-weight: 700 !important;
+    border-color: #004aad;
+    border:none !important;
+    background-color: #004aad !important;
+
 }
 
-.nav_tabs_container a:active {
+.nav_tabs_container 
+a:active {
     color: rgb(158, 156, 154) !important;
-    background-color: #004aad !important
+    background-color: #004aad !important;
+    border-color: #004aad !important;
 }
 
 .nav_tabs_container a:hover {
     color: rgb(158, 156, 154) !important;
+    border-color: #004aad !important;
 }
 
 .logo_pic:hover {
     border-width: 5px !important;
     border-style: solid !important;
-    border-color: rgb(158, 156, 154) !important;
+    border-color: #004aad !important;
 }
-
 

@@ -48,9 +48,9 @@ function Navbar() {
             <NavLink
               to="/contact"
               end
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
+              // className={({ isActive }) =>
+              //   isActive ? 'nav-link active' : 'nav-link'
+              // }
             >
               Kontakt
             </NavLink>
