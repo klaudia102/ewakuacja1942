@@ -19,3 +19,18 @@ p1 {
 a {
     text-decoration: none;
 }
+
+a:active {
+    color: rgb(158, 156, 154) !important;
+    background-color: #004aad !important;
+    border-color: #004aad !important;
+}
+
+ a:hover {
+    color: rgb(158, 156, 154) !important;
+    border-color: #004aad !important;
+}
+
+.footer_logo {
+    background-image: url('public\Ewakuowani(5).png');
+}
