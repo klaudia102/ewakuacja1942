@@ -31,8 +31,10 @@ a:active {
     border-color: #004aad !important;
 }
 
-.footer_logo {
-    background-image: url('public/Ewakuowani(5).png');
+.footer_logo:hover {
+    border-width: 5px !important;
+    border-style: solid !important;
+    border-color: #004aad !important;
 }
 
 .contact_link {
