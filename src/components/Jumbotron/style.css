@@ -9,9 +9,10 @@
 }
 /*  biay
 rgb(158, 156, 154)  szary*/
-h1,h4  {
-    margin: 0;
+ .p_jumbotron  {
+    margin-right: 20px;;
     color: #f6f5f2 !important;
+    display: inline;
 }
 
 .container_header {
