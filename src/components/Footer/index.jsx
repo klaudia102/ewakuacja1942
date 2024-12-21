@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
+import { NavLink } from 'react-router-dom';
+
 
 function Footer() {
     return (
         <footer>
-            <div className='contact_container'>
-                <p>Kontact</p>
-                <p1>ewakuowani1942@gmail.com</p1>
-            </div>
+            <div className='contact_link'>
+<NavLink to='/contact' > Kontakt </NavLink> 
+           </div>
             <div className='footer_logo'>
             <img src="/Ewakuowani(5).png" alt="ewakuowani1942 logo" height="90px" />
             </div>

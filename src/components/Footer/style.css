@@ -6,19 +6,19 @@ footer {
     justify-content: space-evenly;
     padding: 20px;
 }
-p, p1,
+/* p,
 a {
     display:flex ;
     justify-content: center
-}
+} */
 
 p1 {
     font-weight: bold;
 }
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 a:active {
     color: rgb(158, 156, 154) !important;
@@ -32,5 +32,15 @@ a:active {
 }
 
 .footer_logo {
-    background-image: url('public\Ewakuowani(5).png');
+    background-image: url('public/Ewakuowani(5).png');
+}
+
+.contact_link {
+    align-items:center; 
+    display: flex;
+}
+
+.NavLink {
+   
+    align-self: center;
 }
