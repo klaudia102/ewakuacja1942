@@ -35,10 +35,10 @@ function Findings(props) {
               <td>przydział na Środkowym Wschodzie:</td>
               <td>{props.nowyPrzydział}</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>sygnatury archiwalne:</td>
               <td>{props.sygnatura}</td>
-            </tr>
+            </tr> */}
             <tr>
               <td></td>
               <td></td>
